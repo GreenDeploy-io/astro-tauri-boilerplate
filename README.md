@@ -98,6 +98,8 @@ All commands are run from the root of the project, from a terminal:
 |:----------------  |:-------------------------------------------- |
 | `npm run start`     | Starts local dev server at `localhost:4321`  |
 | `npm run build`   | Build your production site to `./dist/`      |
+| `npm run desktop:start`   | To run the desktop app locally      |
+| `npm run desktop:build`   | To build the desktop app |
 | `npm run preview` | Preview your build locally, before deploying |
 | `npm run lint:es`    | Run ESLint and report styling errors          |
 | `npm run lint:ts`    | Run TypeScript type checking |
