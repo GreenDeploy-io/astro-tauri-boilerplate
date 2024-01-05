@@ -50,8 +50,13 @@ ESLint with:
 
 - Node.js and npm (refer to `engines` in `package.json` for the versions ranges)
   - you can either install Node.js and npm system-wide, or use [nvm](https://github.com/nvm-sh/nvm)
+- Rust; refer to [Install Rust](https://www.rust-lang.org/tools/install)
+  - for MacOS, run: `brew install rust`
+- If using VSCode, install recommended extensions, mentioned in `.vscode/extensions.json`
 
-### Run locally in Browser
+### Run locally
+
+#### In Browser
 
 ```bash
 npm run start
@@ -60,7 +65,15 @@ npm run start
 Open [http://localhost:4321](http://localhost:4321) with your favorite browser
 to see your project.
 
+#### Desktop App
+
+```bash
+npm run desktop:start
+```
+
 ### Deploy to production (manual)
+
+#### Website
 
 You can create an optimized production build with:
 
@@ -71,11 +84,11 @@ npm run build
 All generated files are located in `dist` folder.
 You can deploy the folder to any hosting provider you prefer.
 
-### Deploy to Netlify
+#### Desktop App
 
-Clone this repository on own GitHub account and deploy to Netlify:
-
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Astro-boilerplate)
+```shell
+npm run desktop:build
+```
 
 ## 🧞 Commands
 
